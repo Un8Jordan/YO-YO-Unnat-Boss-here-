@@ -1,0 +1,37 @@
+<html>
+<head>
+
+<title>Input Page With Functions</title>
+</head>
+<body text.align="center"> 
+
+        <h2>REAL TIME DATA VALIDATION USING JAVASCRIPT</h2>
+        <hr>
+        <form id="loginform" onsubmit="validate(e)">
+        <fieldset>
+ 
+     <div>
+        <label for="email">Email:-</label>
+        <input type="email" id="email" name="email">
+     </div>
+
+      <div>
+        <label for="password">Password:-</label>
+       <input type="password" name="password" id="password" minlength="password">
+      </div>
+
+       <div>
+       <lable for="age">Age:-</lable>
+       <input type="number" id="age" name="age" minlength="10" maxlength="80">
+       </div>
+
+       <button type="submit">Login</button>
+
+        </fieldset>
+        </form>
+
+        <div id="message"></div>
+   
+        <script src="man.js"></script>
+        </body>
+        </html>
